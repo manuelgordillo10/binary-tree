@@ -46,7 +46,7 @@ Las formas exactas de los pasos (`comparar`, `encontrado`, `no-encontrado`, `cam
 
 - Se hace **un commit por tarea**, con exactamente el mensaje que indica el plan (p. ej. `feat: Nodo, colores y lectura de valores`).
 - **Sin `Co-Authored-By`** ni ningún otro contribuidor.
-- Después de cada commit se hace `git push` a `origin/main` (https://github.com/manuelgordillo10/binary-tree).
+- **No hacer `git push` automáticamente.** Solo se sube a `origin/main` (https://github.com/manuelgordillo10/binary-tree) cuando el usuario lo pide explícitamente.
 
 ## Puntos de revisión del usuario
 

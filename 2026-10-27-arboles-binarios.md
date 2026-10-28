@@ -28,7 +28,7 @@
   - Se respeta `prefers-reduced-motion` mediante `MotionConfig reducedMotion="user"`.
 - **Dispositivos:** escritorio y tableta. No se optimiza para teléfono.
 - **Sin persistencia:** no hay backend ni `localStorage`.
-- **Commits:** uno por tarea, con solo el mensaje que indica la tarea, sin `Co-Authored-By` ni otros contribuidores. Después de cada commit se hace `git push` a `origin/main`.
+- **Commits:** uno por tarea, con solo el mensaje que indica la tarea, sin `Co-Authored-By` ni otros contribuidores. No se hace `git push` automáticamente: solo cuando el usuario lo pide.
 
 ## Foco de revisión
 
