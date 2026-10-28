@@ -28,7 +28,7 @@
   - Se respeta `prefers-reduced-motion` mediante `MotionConfig reducedMotion="user"`.
 - **Dispositivos:** escritorio y tableta. No se optimiza para teléfono.
 - **Sin persistencia:** no hay backend ni `localStorage`.
-- **Commits:** uno por tarea. Cada mensaje termina con `Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>`.
+- **Commits:** uno por tarea, con solo el mensaje que indica la tarea, sin `Co-Authored-By` ni otros contribuidores. Después de cada commit se hace `git push` a `origin/main`.
 
 ## Foco de revisión
 
